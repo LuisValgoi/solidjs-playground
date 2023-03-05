@@ -1,7 +1,9 @@
 import type { Component } from 'solid-js';
 
 import Header from '@/components/Header';
-import Counter from '@/components/Counter';
+import Counter from '@/containers/Counter';
+
+import { CounterProvider } from '@/providers/CounterProvider';
 
 import styles from './index.module.scss';
 
@@ -9,7 +11,9 @@ const App: Component = () => {
   return (
     <div class={styles.App}>
       <Header />
-      <Counter />
+      <CounterProvider>
+        <Counter />
+      </CounterProvider>
     </div>
   );
 };
