@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.text {
+    font-size: calc(10px + 2vmin);
+}
+
+.logo {
+    height: 5vmin;
+    pointer-events: none;
+}

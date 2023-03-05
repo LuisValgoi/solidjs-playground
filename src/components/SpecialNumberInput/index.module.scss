@@ -1,0 +1,19 @@
+.h3 {
+    color: white;
+    font-size: 3vmin;
+    margin: 0;
+}
+
+.input {
+    border: 2px solid lightblue;
+    padding: 1vmin;
+    border-radius: 1vmin;
+    background-color: transparent;
+    color: white;
+    font-size: 2vmin;
+}
+
+.input:focus {
+    outline-color: lightblue;
+    outline-width: 1vmin;
+}
